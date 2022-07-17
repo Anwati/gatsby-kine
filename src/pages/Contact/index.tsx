@@ -5,7 +5,6 @@ import { faClock } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   //Appel 8h30 - 19h du lundi au samedi
-  console.log(window.innerWidth);
   return (
     <div className="address-map-container" id="contact">
       <div

@@ -173,6 +173,22 @@ a:hover {
   line-height: var(--p-font-size);
 }
 
+.address-map-container {
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-color);
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.address-map {
+  background-color: var(--primary-color);
+  @media (max-width: 767px) {
+    //width: 20%;
+    display: none;
+  }
+}
+
 /*---------------------------------------
   CUSTOM LINK               
 -----------------------------------------*/
@@ -195,6 +211,11 @@ a:hover {
   vertical-align: middle;
   white-space: nowrap;
   color: white;
+  margin-right: 1.5rem;
+
+  @media (max-width: 767px) {
+    margin-right: 0;
+  }
 }
 
 .custom-link {
@@ -330,11 +351,13 @@ strong {
 
 .header-image {
   filter: grayscale(100%);
-  width: "70%"; 
-  opacity: 0.3;
+  width: 95%; 
+  opacity: 0.4;
 
   @media (max-width: 767px) {
-    width: 100%;
+    width: 200%;
+    margin-left: -350px;
+    opacity: 0.13;
   }
 }
 
@@ -347,21 +370,40 @@ strong {
   overflow: hidden;
   height: 580px;
   margin-top: -30px;
-  //margin-left: -30px;
+  max-width: 100%;
 }
 
 .heroText {
-  //background: var(--white-color);
   position: absolute;
   z-index: 2;
   bottom: 30px;
-  right: -50px;
   padding: 3rem 2.5rem;
-  width: 60%;
+  left: 120px;
+
+  @media (max-width: 767px) {
+    margin-top: -300px;
+  }
 }
 
 .contact-phone {
   font-weight: var(--font-weight-semibold);
+  margin-bottom: 0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.contact-box {
+  color: white;
+  text-align: center;
+}
+
+.contact-text {
+  color: white;
+  text-align: center;
 }
 
 /*---------------------------------------
@@ -1001,6 +1043,7 @@ strong {
   .contact-phone {
     font-size: 22px;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 

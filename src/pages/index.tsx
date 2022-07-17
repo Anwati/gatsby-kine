@@ -10,6 +10,7 @@ import Header from "./Header";
 import About from "./About";
 import InfoBox from "./InfoBox";
 import Treatment from "./Treatment";
+import Contact  from "./Contact";
 
 const IndexPage = () => {
 
@@ -26,6 +27,8 @@ const IndexPage = () => {
       <About />
 
       <Treatment />
+
+      <Contact />
 
     </main>
   )

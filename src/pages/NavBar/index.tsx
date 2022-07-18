@@ -2,21 +2,21 @@ import * as React from "react";
 
 const NavBar = () => {
 
-  const [width, setWidth] = React.useState<number>(window.innerWidth);
+  // const [width, setWidth] = React.useState<number>(window.innerWidth);
 
-  function handleWindowSizeChange() {
-    setWidth(window.innerWidth);
-  }
-  React.useEffect(() => {
-    window.addEventListener("resize", handleWindowSizeChange);
-    return () => {
-      window.removeEventListener("resize", handleWindowSizeChange);
-    };
-  }, []);
+  // function handleWindowSizeChange() {
+  //   setWidth(window.innerWidth);
+  // }
+  // React.useEffect(() => {
+  //   window.addEventListener("resize", handleWindowSizeChange);
+  //   return () => {
+  //     window.removeEventListener("resize", handleWindowSizeChange);
+  //   };
+  // }, []);
 
-  const isMobile = width <= 768;
+  // const isMobile = width <= 768;
 
-  const [navBarMenuVisible, setNavBarMenuVisible] = React.useState(!isMobile);
+  // const [navBarMenuVisible, setNavBarMenuVisible] = React.useState(!isMobile);
 
   return (
     <nav className="navbar navbar-expand-lg fixed-top shadow-lg">
@@ -26,7 +26,7 @@ const NavBar = () => {
           <strong className="d-block">Kinésithérapeute</strong>
         </a>
 
-        <button
+        {/* <button
           onClick={() => setNavBarMenuVisible(!navBarMenuVisible)}
           className="navbar-toggler"
           type="button"
@@ -37,10 +37,10 @@ const NavBar = () => {
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
-        </button>
+        </button> */}
 
-        {navBarMenuVisible && (
-          <div className="navbar-collapse" id="navbarNav">
+        {/* {navBarMenuVisible && ( */}
+          <div className="navbar-collapse collapse" id="navbarNav">
             <ul className="navbar-nav mx-auto">
               <li className="nav-item active">
                 <a className="nav-link" href="#home">
@@ -72,7 +72,7 @@ const NavBar = () => {
               </li>
             </ul>
           </div>
-        )}
+        {/* )} */}
       </div>
     </nav>
   );

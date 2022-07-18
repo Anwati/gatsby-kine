@@ -1,7 +1,22 @@
 import * as React from "react";
 
 const NavBar = () => {
-  const [navBarMenuVisible, setNavBarMenuVisible] = React.useState(false);
+
+  const [width, setWidth] = React.useState<number>(window.innerWidth);
+
+  function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
+  }
+  React.useEffect(() => {
+    window.addEventListener("resize", handleWindowSizeChange);
+    return () => {
+      window.removeEventListener("resize", handleWindowSizeChange);
+    };
+  }, []);
+
+  const isMobile = width <= 768;
+
+  const [navBarMenuVisible, setNavBarMenuVisible] = React.useState(!isMobile);
 
   return (
     <nav className="navbar navbar-expand-lg fixed-top shadow-lg">

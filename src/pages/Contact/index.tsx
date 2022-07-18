@@ -10,7 +10,7 @@ const Contact = () => {
       <div
         className="address-map"
         dangerouslySetInnerHTML={{
-          __html: `<div class='mapouter'><div class='gmap_canvas'><iframe width='800' height='384' id='gmap_canvas' src='https://maps.google.com/maps?q=Chau.%20Saint-Pierre%20280/282,%201040%20Etterbeek&t=&z=15&ie=UTF8&iwloc=&output=embed' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'></iframe><a href='https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/'>divi discount</a><br><style>.mapouter{position:relative;text-align:right;height:384px;width:869px;}</style><a href='https://www.embedgooglemap.net'>embedding google maps in webpage</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:384px;width:869px;}</style></div></div>`,
+          __html: `<div class='mapouter'><div class='gmap_canvas'><iframe width='700' height='384' id='gmap_canvas' src='https://maps.google.com/maps?q=Chau.%20Saint-Pierre%20280/282,%201040%20Etterbeek&t=&z=15&ie=UTF8&iwloc=&output=embed' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'></iframe><a href='https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/'>divi discount</a><br><style>.mapouter{position:relative;text-align:right;height:384px;width:869px;}</style><a href='https://www.embedgooglemap.net'>embedding google maps in webpage</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:384px;width:869px;}</style></div></div>`,
         }}
       />
       <div className="contact">

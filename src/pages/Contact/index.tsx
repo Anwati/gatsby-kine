@@ -14,7 +14,7 @@ const Contact = () => {
         }}
       />
       <div className="contact">
-        <a className="custom-button" style={{marginRight: 0, marginBottom: "20px"}}>
+        <a className="custom-button" style={{marginRight: 0, marginBottom: "20px"}} href="https://rosa.be/fr/gabrielle-doorenbos">
           <span
             class="bi bi-calendar-check"
             style={{ paddingRight: "10px" }}

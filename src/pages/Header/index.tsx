@@ -28,7 +28,7 @@ const Header = () => {
             <h6 className="mb-4 text-center"> Chaines Physiologiques</h6>
 
             <div className="heroLinks d-flex flex-wrap align-items-center text-center">
-              <a className="custom-button">
+              <a className="custom-button" href="https://rosa.be/fr/gabrielle-doorenbos">
                 <span class="bi bi-calendar-check" style={{paddingRight: "10px"}} ></span>Prendre rendez-vous
               </a>
 

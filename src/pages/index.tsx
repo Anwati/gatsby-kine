@@ -17,7 +17,6 @@ const IndexPage = () => {
 
   return (
     <main>
-      <title>Gabrielle Doorenbos</title>
 
       <NavBar />
 

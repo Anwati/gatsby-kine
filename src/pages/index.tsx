@@ -11,6 +11,7 @@ import About from "./About";
 import InfoBox from "./InfoBox";
 import Treatment from "./Treatment";
 import Contact  from "./Contact";
+import { SEO } from "./seo"
 
 const IndexPage = () => {
 
@@ -35,3 +36,7 @@ const IndexPage = () => {
 }
 
 export default IndexPage
+
+export const Head = () => (
+  <SEO />
+)

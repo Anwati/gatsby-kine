@@ -3,7 +3,7 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Gabrielle Doorenbos Kinésithérapeute`,
-    siteUrl: `https://www.gabi-kine.com`,
+    siteUrl: `https://gabi-kine.com`,
     description: `Gabrielle Doorenbos Kinésithérapeute physiotherapy Etterbeek Bruxelles Kiné générale, Kiné du sport, Douleur persistante, Chaines Physiologiques, prise de rendez-vous en ligne`,
     image: `/gatsby-icon.png`,
   },

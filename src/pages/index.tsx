@@ -4,39 +4,40 @@ import "./../css/bootstrap-icons.scss";
 import "./../css/owl.carousel.min.scss";
 import "./../css/owl.theme.default.min.scss";
 import "./../css/templatemo-medic-care.scss";
-import "@fontsource/poppins"
+import "@fontsource/poppins";
 import NavBar from "./NavBar";
 import Header from "./Header";
 import About from "./About";
 import InfoBox from "./InfoBox";
 import Treatment from "./Treatment";
-import Contact  from "./Contact";
-import SEO from "./../components/SEO"
+import Contact from "./Contact";
+import SEO from "./../components/SEO";
 
 const IndexPage = () => {
-
   return (
-    <main>
-      <title>Gabrielle Doorenbos</title>
+    <>
+      <SEO />
+      <main>
+        <title>Gabrielle Doorenbos</title>
 
-      <NavBar />
+        <NavBar />
 
-      <Header />
+        <Header />
 
-      <InfoBox />
+        <InfoBox />
 
-      <About />
+        <About />
 
-      <Treatment />
+        <Treatment />
 
-      <Contact />
+        <Contact />
+      </main>
+    </>
+  );
+};
 
-    </main>
-  )
-}
+export default IndexPage;
 
-export default IndexPage
-
-export const Head = () => (
-  <SEO />
-)
+// export const Head = () => (
+//   <SEO />
+// )

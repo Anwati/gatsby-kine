@@ -13,8 +13,6 @@ import Treatment from "./Treatment";
 import Contact from "./Contact";
 import SEO from "./../components/SEO";
 
-//export const Head = () => <SEO />;
-
 const IndexPage = () => {
   return (
     <main>

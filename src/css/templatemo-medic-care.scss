@@ -122,8 +122,8 @@ a:hover {
 }
 
 .section-padding {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .custom-banner {
@@ -355,6 +355,7 @@ strong {
   opacity: 0.4;
 
   @media (max-width: 767px) {
+    position: absolute;
     width: 200%;
     margin-left: -350px;
     opacity: 0.13;
@@ -371,6 +372,10 @@ strong {
   height: 580px;
   margin-top: -30px;
   max-width: 100%;
+
+  @media (max-width: 767px) {
+    margin-top: 0;
+  }
 }
 
 .heroText {
@@ -381,7 +386,8 @@ strong {
   left: 120px;
 
   @media (max-width: 767px) {
-    margin-top: -300px;
+    position: relative;
+    //margin-top: -300px;
   }
 }
 
@@ -437,7 +443,10 @@ strong {
 
     &--left {
       left: 10px;
-      //top: 50px;
+    }
+
+    @media (max-width: 767px) {
+      display: none;
     }
 }
 
@@ -964,8 +973,8 @@ strong {
   }
 
   .section-padding {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .navbar {

@@ -11,7 +11,7 @@ const About = () => {
           <div className="row">
 
             <div className="col-lg-8 col-md-6 col-12">
-              <h4 className="mb-lg-3 mb-3">Moi</h4>
+              <h2 className="mb-lg-3 mb-3">Moi</h2>
 
               <p>Ma passion pour le sport, le bien-être, le corps humain et son fonctionnement m’ont mené vers le métier de kinésithérapeute.</p>
 
@@ -26,7 +26,7 @@ const About = () => {
               <div className="circle"></div>
               <div className="featured-circle d-flex justify-content-center align-items-center">
 
-                <img className="img-thumbnail shadow-lg" src={gab} style={{ width: "70%" }} alt="/" />
+                <img className="img-thumbnail shadow-lg" src={gab} style={{ width: "70%" }} alt="Photo de moi" />
               </div>
             </div>
 

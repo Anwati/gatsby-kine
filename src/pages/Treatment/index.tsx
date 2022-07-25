@@ -21,12 +21,12 @@ const Treatment = () => {
               <div className="circle circle--left"></div>
               <div className="featured-circle d-flex justify-content-center align-items-center">
 
-                <img className="img-thumbnail shadow-lg" src={kine_generale} style={{ width: "100%" }} alt="/" />
+                <img className="img-thumbnail shadow-lg" src={kine_generale} style={{ width: "100%" }} alt="kiné générale" />
               </div>
             </div>
 
             <div className="col-lg-8 col-md-6 col-12">
-              <h4 className="mb-lg-3 mb-3">Kiné générale</h4>
+              <h2 className="mb-lg-3 mb-3">Kiné générale</h2>
 
               <p>La kinésithérapie est le traitement par le mouvement. L’objectif est de réaliser des soins de rééducation et de réadaptation afin de maintenir ou de restaurer le mouvement et les capacités du patient.
               </p>
@@ -42,7 +42,7 @@ const Treatment = () => {
           <div className="row">
 
             <div className="col-lg-8 col-md-6 col-12">
-              <h4 className="mb-lg-3 mb-3">Kiné du sport</h4>
+              <h2 className="mb-lg-3 mb-3">Kiné du sport</h2>
 
               <p>La kinésithérapie du sport se concentre sur les pathologies musculaires, tendineuses et articulaires rencontrées dans le domaine sportif (entorses, tendinopathies, ruptures, douleurs de surcharges). Elle a pour objet d'éviter les blessures, la récidive ou plus simplement pour favoriser une reprise correcte du geste sportif.
               </p>
@@ -59,7 +59,7 @@ const Treatment = () => {
               <div className="circle"></div>
               <div className="featured-circle d-flex justify-content-center align-items-center">
 
-                <img className="img-thumbnail shadow-lg" src={kine_sport} style={{ width: "70%" }} alt="/" />
+                <img className="img-thumbnail shadow-lg" src={kine_sport} style={{ width: "70%" }} alt="kiné du sport" />
               </div>
             </div>
 
@@ -71,12 +71,12 @@ const Treatment = () => {
               <div className="circle circle--left"></div>
               <div className="featured-circle d-flex justify-content-center align-items-center">
 
-                <img className="img-thumbnail shadow-lg" src={chaine_physio} style={{ width: "100%" }} alt="/" />
+                <img className="img-thumbnail shadow-lg" src={chaine_physio} style={{ width: "100%" }} alt="chaînes physiologiques" />
               </div>
             </div>
 
             <div className="col-lg-8 col-md-6 col-12">
-              <h4 className="mb-lg-3 mb-3">Les chaînes physiologiques</h4>
+              <h2 className="mb-lg-3 mb-3">Les chaînes physiologiques</h2>
 
               <p>La méthode des chaînes physiologiques a été développée par M. Busquet dont le but est de lever les tensions structurelles à la base de dysfonctions, déformations et douleurs.
                 Elle repose sur un examen complet afin de mettre en évidence les points de tension dans le corps.
@@ -95,7 +95,7 @@ const Treatment = () => {
           <div className="row">
 
             <div className="col-lg-8 col-md-6 col-12">
-              <h4 className="mb-lg-3 mb-3">La douleur persistante </h4>
+              <h2 className="mb-lg-3 mb-3">La douleur persistante </h2>
 
               <p>La douleur persistante n’est pas rare. En effet, on considère qu’un quart de la population y est ou y sera confronté dans sa vie. Cela peut mener à une invalidité importante et durable.
               </p>
@@ -112,7 +112,7 @@ const Treatment = () => {
               <div className="circle"></div>
               <div className="featured-circle d-flex justify-content-center align-items-center">
 
-                <img className="img-thumbnail shadow-lg" src={douleur} style={{ width: "70%" }} alt="/" />
+                <img className="img-thumbnail shadow-lg" src={douleur} style={{ width: "70%" }} alt="douleur persistante" />
               </div>
             </div>
 

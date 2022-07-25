@@ -14,12 +14,18 @@ const Contact = () => {
         }}
       />
       <div className="contact">
-        <a className="custom-button" style={{marginRight: 0, marginBottom: "20px"}} href="https://rosa.be/fr/gabrielle-doorenbos">
-          <span
-            class="bi bi-calendar-check"
-            style={{ paddingRight: "10px" }}
-          ></span>
-          Prendre rendez-vous
+        <a
+          className="custom-button"
+          style={{ marginRight: 0, marginBottom: "20px" }}
+          href="https://rosa.be/fr/gabrielle-doorenbos"
+        >
+          <button>
+            <span
+              class="bi bi-calendar-check"
+              style={{ paddingRight: "10px" }}
+            ></span>
+            Prendre rendez-vous
+          </button>
         </a>
         <p className="contact-text" style={{ color: "white" }}>
           <i className="bi-phone"></i> 0496 32 52 37

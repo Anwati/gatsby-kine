@@ -4,7 +4,7 @@ const config: GatsbyConfig = {
   siteMetadata: {
     title: `Gabrielle Doorenbos Kinésithérapeute`,
     siteUrl: `https://gabi-kine.com`,
-    description: `Gabrielle Doorenbos kinésithérapeute physiotherapy Etterbeek Bruxelles Kiné générale, Kiné du sport, Douleur persistante, Chaines Physiologiques, prise de rendez-vous en ligne`,
+    description: `Gabrielle Doorenbos kinésithérapeute physiotherapist à Etterbeek Bruxelles, proche du parc du Cinquantenaire. Kiné générale, Kiné du sport, Douleur persistante, Chaines Physiologiques. Prise de rendez-vous en ligne`,
     image: `/gatsby-icon.png`,
   },
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {

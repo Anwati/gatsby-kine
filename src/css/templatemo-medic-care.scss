@@ -390,6 +390,8 @@ strong {
 
   @media (max-width: 767px) {
     position: relative;
+    bottom: 0px;
+  
     //margin-top: -300px;
   }
 }
@@ -996,10 +998,10 @@ strong {
 
   .heroText {
     position: relative;
-    bottom: 100px;
+    //bottom: 100px;
     left: 0;
     width: auto;
-    margin-bottom: -100px;
+    //margin-bottom: -100px;
     padding: 2rem;
   }
 

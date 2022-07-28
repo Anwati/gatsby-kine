@@ -1,9 +1,5 @@
 import * as React from "react";
 //@ts-ignore
-//import office from "./../../images/office.jpg";
-//@ts-ignore
-//import office2 from "./../../images/office_test.jpg";
-//@ts-ignore
 import logo from "./../../images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarCheck } from "@fortawesome/free-solid-svg-icons";
